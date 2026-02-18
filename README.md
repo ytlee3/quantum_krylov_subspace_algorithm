@@ -76,6 +76,12 @@ The code evaluates the ground state energy of 4-site fermi-hubbard model with di
 <p align="center">
 <img width="600" height="400" alt="hubbard" src="https://github.com/user-attachments/assets/7b879112-0304-4bc4-a16b-d8d3349c12ea" />
 </p>
+
+We can also check the $\tilde{H}$ evaluated by the circuit (taking the half-filling case as an example); the matrix should preserve the Toeplitz structure.
+<p align="center">
+<img width="3000" height="1000" alt="H" src="https://github.com/user-attachments/assets/3db8ff46-53f0-46ba-b286-9ef5822acbbc" />
+</p>
+
 ## Keep in mind ...
 
 1. The effectiveness of quantum Krylov diagonalization (QKD) depends on the overlap between the initial state and the true ground state.
