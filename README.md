@@ -74,7 +74,7 @@ For the time-evolution opertor, the hopping term t is implemented by XX+YY gate 
 
 The code evaluates the ground state energy of 4-site fermi-hubbard model with different occupancy based on krylov method. 
 <p align="center">
-<img width="900" height="600" alt="hubbard" src="https://github.com/user-attachments/assets/7b879112-0304-4bc4-a16b-d8d3349c12ea" />
+<img width="600" height="400" alt="hubbard" src="https://github.com/user-attachments/assets/7b879112-0304-4bc4-a16b-d8d3349c12ea" />
 </p>
 ## Keep in mind ...
 
