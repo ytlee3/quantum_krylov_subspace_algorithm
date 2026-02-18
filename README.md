@@ -35,5 +35,7 @@ The overall quantum circuit
 
 where measuring in the $X$ ($Y$) basis yields the real (imaginary) part of the results $\langle O U_{k-j} \rangle$. 
 
+Let's derive the state at each section
+
 
 ## Keep in mind ...
