@@ -69,6 +69,6 @@ Notably, the implementation of the controlled gates can be combined with the mea
 
 ## Fermi-Hubbard Model  
 
-$H = -t \sum_{\langle i, j \rangle, \sigma} (a^\dagger_{i, \sigma} a_{j, \sigma} + h.c.) + U \sum_i {n_{i, \uparrow} n_{i, \downarrow} $
+$H = -t \sum_{\langle i, j \rangle, \sigma} (a^\dagger_{i, \sigma} a_{j, \sigma} + h.c.) + U \sum_i n_{i, \uparrow} n_{i, \downarrow} $
 
 ## Keep in mind ...
