@@ -31,7 +31,7 @@ The overall quantum circuit
 
 <p align="center">
 <img width="499" height="153" alt="circuit" src="https://github.com/user-attachments/assets/5e30a7bd-3c65-44b8-be1b-7f26cbdd58a3" />
-<\p>
+</p>
 
 where measuring in the $X$ ($Y$) basis yields the real (imaginary) part of the results $\langle O U_{k-j} \rangle$. 
 
@@ -75,7 +75,7 @@ For the time-evolution opertor, the hopping term t is implemented by XX+YY gate 
 The code evaluates the ground state energy of 4-site fermi-hubbard model with different occupancy based on krylov method. 
 <p align="center">
 <img width="900" height="600" alt="hubbard" src="https://github.com/user-attachments/assets/7b879112-0304-4bc4-a16b-d8d3349c12ea" />
-<\p>
+</p>
 ## Keep in mind ...
 
 1. The effectiveness of quantum Krylov diagonalization (QKD) depends on the overlap between the initial state and the true ground state.
