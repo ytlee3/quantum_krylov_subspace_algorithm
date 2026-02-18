@@ -63,4 +63,6 @@ $P_{+i} = \frac{1}{4} (\langle \psi_0 | e^{-i \phi} + i \langle \psi_0 | U^\dagg
 
 $P_{-i} = \frac{1}{4} (\langle \psi_0 | e^{-i \phi}  - i \langle \psi_0 | U^\dagger_{k-j}) H (e^{i\phi} |\psi_0\rangle + i U_{k-j} |\psi_0\rangle) = \frac{1}{4} (\langle H \rangle + i e^{-i\phi} \langle H U_{k-j} \rangle - i e^{i\phi} \langle U_{k-j}^\dagger H \rangle + \langle U_{k-j}^\dagger H U_{k-j} \rangle) $
 
+$P_{+i}-P_{-i} = \frac{1}{2} ( -i e^{-i \phi} \langle H U_{k-j} \rangle + i e^{i \phi} \langle U^\dagger_{k-j} H \rangle)
+
 ## Keep in mind ...
