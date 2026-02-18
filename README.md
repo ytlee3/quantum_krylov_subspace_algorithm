@@ -48,7 +48,7 @@ This phase factor is easy to calculate classically
 
 5. For measurement in X basis (ancilia), we have to rewrite the ancilia wavefunction as $|+\rangle$ and $|-\rangle$
 
-$|\psi \rangle = \frac{1}{\sqrt{2}} ( e^{i\phi}|0\rangle |\psi_0\rangle +U_{k-j} |1\rangle |\psi_0\rangle) = $ 
+$|\psi \rangle = \frac{1}{\sqrt{2}} ( e^{i\phi}|0\rangle |\psi_0\rangle +U_{k-j} |1\rangle |\psi_0\rangle) = \frac{1}{2} (|+\rangle (e^{i\phi} |\psi_0\rangle + U_{k-j} |\psi_0\rangle) + |-\rangle (e^{i\phi} |\psi_0\rangle - U_{k-j} |\psi_0\rangle) $ 
  
  
 
