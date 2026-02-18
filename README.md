@@ -4,4 +4,4 @@ Krylov method is a subspace method designed for solving the $Ax=b$ problem. To s
 
 ## Quantum version 
 We aim to solve the ground-state energy of a given Hamiltonian $\langle \psi | H | \psi \rangle$, where we construct the wavefunction as
-$|\psi\rangle = \mathrm{span},[ H^j |\psi_0\rangle ],; j = 0,1,2,\ldots, D-1$ (Krylov subspace).
+$$|\psi\rangle = \mathrm{span},[ H^j |\psi_0\rangle ],; j = 0,1,2,\ldots, D-1$$ (Krylov subspace).
