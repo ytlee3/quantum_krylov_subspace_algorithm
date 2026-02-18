@@ -73,5 +73,5 @@ $H = -t \sum_{\langle i, j \rangle, \sigma} (a^\dagger_{i, \sigma} a_{j, \sigma}
 
 ## Keep in mind ...
 
-1. The effectiveness of quantum krylov diagonalization (QKD) depends on the overlap between initial state and the true ground state
-2. The controlled-state-preparation gate on $|0\rangle $ can be modified with other states, doesn't need to be $|\psi_0\rangle $.
+1. The effectiveness of quantum Krylov diagonalization (QKD) depends on the overlap between the initial state and the true ground state.
+2. The controlled state-preparation gate on $|0\rangle$ can be modified to use other states; it does not need to be $|\psi_0\rangle$.
