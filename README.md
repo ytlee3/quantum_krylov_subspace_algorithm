@@ -19,7 +19,7 @@ By measuring the $\tilde{H_{jk}} = \langle \psi_j | H | \psi_k \rangle$ and the 
 
 ## Quantum circuit and derivation 
 
-The quantum circuit for measuring the  $\tilde{H_{jk}} = \langle \psi_j | H | \psi_k \rangle$ and $\tilde{S_{jk}} = \langle \psi_j | \psi_k \rangle$ are from the paper: https://doi.org/10.1038/s41467-025-59716-z. As $\langle \psi_j | H | \psi_k \rangle = \langle \psi | U^{ijtH} H U^{-iktH} |\psi \rangle$
+The quantum circuit for measuring the  $\tilde{H_{jk}} = \langle \psi_j | H | \psi_k \rangle$ and $\tilde{S_{jk}} = \langle \psi_j | \psi_k \rangle$ are from the paper: https://doi.org/10.1038/s41467-025-59716-z.  $\langle \psi_j | H | \psi_k \rangle = \langle \psi | U^{ijtH} H U^{-iktH} |\psi \rangle= \langle \psi | H U^{-i(k-j)tH} |\psi \rangle$, we measure the 
 
 
 ## Keep in mind ...
