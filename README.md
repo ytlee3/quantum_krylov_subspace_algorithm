@@ -72,3 +72,6 @@ Notably, the implementation of the controlled gates can be combined with the mea
 $H = -t \sum_{\langle i, j \rangle, \sigma} (a^\dagger_{i, \sigma} a_{j, \sigma} + h.c.) + U \sum_i n_{i, \uparrow} n_{i, \downarrow} = \frac{-t}{2} \sum_{\langle i, j \rangle, \sigma} X_iX_j + Y_iY_j + \sum_i  \frac{U}{4} (1-Z_{i, \uparrow})(1-Z_{i, \downarrow})$
 
 ## Keep in mind ...
+
+1. The effectiveness of quantum krylov diagonalization (QKD) depends on the overlap between initial state and the true ground state
+2. The controlled-state-preparation gate on $|0\rangle $ can be modified with other states, doesn't need to be $|\psi_0\rangle $.
