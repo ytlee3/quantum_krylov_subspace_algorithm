@@ -1,3 +1,3 @@
 # Quantum Krylov Subspace Algorithm
 
-Krylov method is a subspace method designed for solving $Ax=b$ problem. To solve this, $x = Span \{b, Ab, A^2b, A^3b....\}$
+Krylov method is a subspace method designed for solving $Ax=b$ problem. To solve this, $x = Span \{b, Ab, A^2b, A^3b....\}$, and several numerical methods are based on this concept, including, Lanczos, conjugate gradient .....
