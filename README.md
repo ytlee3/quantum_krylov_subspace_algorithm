@@ -26,7 +26,7 @@ $$
 \langle \psi_j | H | \psi_k \rangle = \langle \psi | U^{ijtH} H U^{-iktH} |\psi \rangle= \langle \psi | H U^{-i(k-j)tH} |\psi \rangle 
 $$
 
-we measure the 
+and the overlapt integral can also descirbed as $\langle \psi_j| \psi_k \rangle = \langle \psi|U^{-i(k-j)Ht}|\psi \rangle$
 
 
 ## Keep in mind ...
