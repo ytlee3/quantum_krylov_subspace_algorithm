@@ -72,6 +72,11 @@ Notably, the implementation of the controlled gates can be combined with the mea
 $H = -t \sum_{\langle i, j \rangle, \sigma} (a^\dagger_{i, \sigma} a_{j, \sigma} + h.c.) + U \sum_i n_{i, \uparrow} n_{i, \downarrow} = \frac{-t}{2} \sum_{\langle i, j \rangle, \sigma} X_iX_j + Y_iY_j + \sum_i  \frac{U}{4} (1-Z_{i, \uparrow})(1-Z_{i, \downarrow})$
 
 For the time-evolution opertor, the hopping term t is implemented by XX+YY gate and the self-energy term Z is implemented by CPhase gate
+
+The code evaluates the ground state energy of 4-site fermi-hubbard model with different occupancy based on krylov method. 
+
+<img width="900" height="600" alt="hubbard" src="https://github.com/user-attachments/assets/7b879112-0304-4bc4-a16b-d8d3349c12ea" />
+
 ## Keep in mind ...
 
 1. The effectiveness of quantum Krylov diagonalization (QKD) depends on the overlap between the initial state and the true ground state.
