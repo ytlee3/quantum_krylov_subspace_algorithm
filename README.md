@@ -38,7 +38,17 @@ where measuring in the $X$ ($Y$) basis yields the real (imaginary) part of the r
 
 Let's derive the wavefunction step by step 
 
-1. After applying Hadamard gate, we have $|\psi \rangle = \frac{1}{\sqrt{2}} (|0\rangle |0\rangle^n + |1\rangle |0\rangle^n)$
+1. After applying Hadamard gate, we have
+
+$$
+|\psi \rangle = \frac{1}{\sqrt{2}} (|0\rangle |0\rangle^n + |1\rangle |0\rangle^n)
+$$
+
+3. Preparing the target state on $|1\rangle$
+
+$$
+
+$$
 
 
 ## Keep in mind ...
