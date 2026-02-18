@@ -7,11 +7,11 @@ We aim to solve the ground-state energy of a given Hamiltonian $\langle \psi | H
 
 $$
 |\psi\rangle = \mathrm{span} [ H^j |\psi_0\rangle ], j = 0,1,2,\ldots, D-1
-$$ (Krylov subspace). 
+$$ 
 
 To make it parqametrizable on quantum computers, we use real-time evolution to constrcut the krylov subspace instead of the entire Hamiltonian as follow 
 
 $$
 |\psi\rangle = \mathrm{span} [ U^j |\psi_0\rangle ], U=e^{-iHt}, j = 0,1,2,\ldots, D-1
-$$ (Krylov subspace)
+$$ 
 
