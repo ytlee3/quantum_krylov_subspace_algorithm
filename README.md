@@ -30,7 +30,8 @@ and the overlapt integral $\tilde{S}$ can also descirbed as $\langle \psi_j| \ps
 The overall quantum circuit 
 
 <p align="center">
-<img width="456" height="138" alt="circuit" src="https://github.com/user-attachments/assets/45eaad30-0cc0-48ca-852f-fde46af51f41" />
+<img width="499" height="153" alt="circuit" src="https://github.com/user-attachments/assets/5e30a7bd-3c65-44b8-be1b-7f26cbdd58a3" />
+
 </p>
 
 where measuring in the $X$ ($Y$) basis yields the real (imaginary) part of the results $\langle O U_{k-j} \rangle$. 
