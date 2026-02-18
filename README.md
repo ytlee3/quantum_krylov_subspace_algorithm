@@ -39,10 +39,12 @@ where measuring in the $X$ ($Y$) basis yields the real (imaginary) part of the r
 Let's derive the wavefunction step by step 
 
 1. After applying Hadamard gate, we have $|\psi \rangle = \frac{1}{\sqrt{2}} (|0\rangle |0\rangle^n + |1\rangle |0\rangle^n)$
-2. Preparing the target state on $|1\rangle$, we have $|\psi \rangle = \frac{1}{\sqrt{2}} (|0\rangle |0\rangle^n + |1\rangle |\psi_0\rangle)$ 
+2. Preparing the target state on $|1\rangle$ (ancilia), we have $|\psi \rangle = \frac{1}{\sqrt{2}} (|0\rangle |0\rangle^n + |1\rangle |\psi_0\rangle)$ 
 3. Apply time-evolution operator: $|\psi \rangle =  \frac{1}{\sqrt{2}} (U_{k-j} |0\rangle |0\rangle^n +U_{k-j}   |1\rangle |\psi_0\rangle) =  \frac{1}{\sqrt{2}} (e^{i\phi}|0\rangle |0\rangle^n +U_{k-j}   |1\rangle |\psi_0\rangle) $.  NOTE: $U_{k-j}|0\rangle^n = e^{i \phi} |0\rangle^n$
 
-This phase factor is easy to calculate classically, for the purpose of derivation, we drop the phase factor first
+This phase factor is easy to calculate classically; for the purpose of derivation, we first drop the phase factor.
+
+4. Preparing the target state on $|0\rangle$ (ancilia), we have $|\psi \rangle = \frac{1}{\sqrt{2}} (|0\rangle |\psi_0\rangle +U_{k-j} |1\rangle |\psi_0\rangle) $
  
 
 ## Keep in mind ...
