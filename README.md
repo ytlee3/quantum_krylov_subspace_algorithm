@@ -55,6 +55,8 @@ $P_+ = \frac{1}{4} (\langle \psi_0 | e^{-i \phi} + \langle \psi_0 | U^\dagger_{k
 $P_- = \frac{1}{4} (\langle \psi_0 | e^{-i \phi} - \langle \psi_0 | U^\dagger_{k-j}) H (e^{i\phi} |\psi_0\rangle - U_{k-j} |\psi_0\rangle) = \frac{1}{4} (\langle H \rangle - e^{-i\phi} \langle H U_{k-j} \rangle - e^{i\phi} \langle U_{k-j}^\dagger H \rangle + \langle U_{k-j}^\dagger H U_{k-j} \rangle)$
 
 $P_+ - P_- =  \frac{1}{2} ( e^{-i\phi} \langle H U_{k-j} \rangle + e^{i\phi} \langle U_{k-j}^\dagger H \rangle ) =  \frac{1}{2} ( e^{-i\phi} \langle H U_{k-j} \rangle +  (e^{-i\phi} \langle H U_{k-j}\rangle )^\dagger) = Re[e^{-i\phi}\langle H U_{k-j} \rangle] $
+
+6. For measurement in X basis (ancilia), we have to rewrite the ancilia wavefunction as $|+i\rangle$ and $|-i\rangle$
  
 
 ## Keep in mind ...
