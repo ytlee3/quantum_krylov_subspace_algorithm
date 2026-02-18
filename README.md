@@ -77,7 +77,7 @@ The code evaluates the ground state energy of 4-site fermi-hubbard model with di
 <img width="600" height="400" alt="hubbard" src="https://github.com/user-attachments/assets/7b879112-0304-4bc4-a16b-d8d3349c12ea" />
 </p>
 
-We can also check the $\tilde{H}$ evaluated by the circuit (taking the half-filling case as an example); the matrix should preserve the Toeplitz structure.
+We can also check the $\tilde{H}$ evaluated by the circuit (taking the half-filling case as an example); the matrix should preserve the Toeplitz structure. (notably, numerical $\tilde{H}$ with trotterization breaks the Toeplitz structure) 
 <p align="center">
 <img width="2369" height="843" alt="H" src="https://github.com/user-attachments/assets/447dc3cc-6f59-4160-ae5d-194f9c78b70a" />
 </p>
