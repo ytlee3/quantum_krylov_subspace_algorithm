@@ -27,10 +27,13 @@ $$
 $$
 
 and the overlapt integral $\tilde{S}$ can also descirbed as $\langle \psi_j| \psi_k \rangle = \langle \psi|U^{-i(k-j)Ht}|\psi \rangle$, which is the measurement of $I^{\otimes{N}}$ for the $\tilde{H}$
+The overall quantum circuit 
 
 <p align="center">
 <img width="456" height="138" alt="circuit" src="https://github.com/user-attachments/assets/45eaad30-0cc0-48ca-852f-fde46af51f41" />
 </p>
+
+where measuring in the $X$ ($Y$) basis yields the real (imaginary) part of the results $\langle O U_{k-j} \rangle$. 
 
 
 ## Keep in mind ...
