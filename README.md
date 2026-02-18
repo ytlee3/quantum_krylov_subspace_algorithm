@@ -35,7 +35,9 @@ The overall quantum circuit
 
 where measuring in the $X$ ($Y$) basis yields the real (imaginary) part of the results $\langle O U_{k-j} \rangle$. 
 
-Let's derive the state at each section
+Let's derive the wavefunction step by step 
+
+1. After applying Hadamard gate, we have $|\psi \rangle = \frac{1}{\sqrt{2}} (|0\rangle |0\rangle^n + |1\rangle |0\rangle^n)$
 
 
 ## Keep in mind ...
