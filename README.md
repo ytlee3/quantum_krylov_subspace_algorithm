@@ -15,4 +15,4 @@ $$
 |\psi\rangle = \mathrm{span} [ U^j |\psi_0\rangle ], U=e^{-iHt}, j = 0,1,2,\ldots, D-1
 $$ 
 
-By measuring the $\tilde{H_{jk}} = \langle \psi_j | H | \psi_k \rangle$
+By measuring the $\tilde{H_{jk}} = \langle \psi_j | H | \psi_k \rangle$ and overlap integral $\tilde{S_{jk}} = \langle \psi_j | \psi_k \rangle$
