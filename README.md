@@ -23,10 +23,10 @@ By measuring the $\tilde{H_{jk}} = \langle \psi_j | H | \psi_k \rangle$ and the 
 The quantum circuit for measuring the  $\tilde{H_{jk}} = \langle \psi_j | H | \psi_k \rangle$ and $\tilde{S_{jk}} = \langle \psi_j | \psi_k \rangle$ are from the paper: https://doi.org/10.1038/s41467-025-59716-z.  Under exact time evolution, 
 
 $$
-\langle \psi_j | H | \psi_k \rangle = \langle \psi | U^{ijtH} H U^{-iktH} |\psi \rangle= \langle \psi | H U^{-i(k-j)tH} |\psi \rangle 
+\tilde{H} = \langle \psi_j | H | \psi_k \rangle = \langle \psi | U^{ijtH} H U^{-iktH} |\psi \rangle= \langle \psi | H U^{-i(k-j)tH} |\psi \rangle 
 $$
 
-and the overlapt integral $\tilde{S}$ can also descirbed as $\langle \psi_j| \psi_k \rangle = \langle \psi|U^{-i(k-j)Ht}|\psi \rangle$, which is the measurement of $I\otimes{N}$ for the Hamiltonian
+and the overlapt integral $\tilde{S}$ can also descirbed as $\langle \psi_j| \psi_k \rangle = \langle \psi|U^{-i(k-j)Ht}|\psi \rangle$, which is the measurement of $I\otimes{N}$ for the $\tilde{H}$
 
 
 ## Keep in mind ...
