@@ -15,4 +15,4 @@ $$
 |\psi\rangle = \mathrm{span} [ U^j |\psi_0\rangle ], U=e^{-iHt}, j = 0,1,2,\ldots, D-1
 $$ 
 
-By measuring the $\tilde{H_{jk}} = \langle \psi_j | H | \psi_k \rangle$ and the overlap integral $\tilde{S_{jk}} = \langle \psi_j | \psi_k \rangle$, we transform the $\langle \psi | H | \psi \rangle$ problem into a classically solvable generalized eigenvalue problem $\tilde{H} c = E \tilde{S} c$.
+By measuring the $\tilde{H_{jk}} = \langle \psi_j | H | \psi_k \rangle$ and the overlap integral $\tilde{S_{jk}} = \langle \psi_j | \psi_k \rangle$, we transform the $\langle \psi | H | \psi \rangle$ problem into a classically solvable generalized eigenvalue problem $\tilde{H} c = E \tilde{S} c$ with dimension equals to number of Krylov basis.
