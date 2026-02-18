@@ -65,6 +65,8 @@ $P_{-i} = \frac{1}{4} (\langle \psi_0 | e^{-i \phi}  - i \langle \psi_0 | U^\dag
 
 $P_{+i}-P_{-i} = \frac{1}{2} ( -i e^{-i \phi} \langle H U_{k-j} \rangle + i e^{i \phi} \langle U^\dagger_{k-j} H \rangle) =\frac{1}{2} ( -i e^{-i \phi} \langle H U_{k-j} \rangle + i (e^{-i \phi} \langle H U_{k-j} \rangle)^\dagger) = Im[e^{-i\phi}\langle H U_{k-j} \rangle] $
 
-Notably, the implementation of the controlled gates can be combined with the measurement. i.e. we don't really need to implement those gate for certain cases.
+Notably, the implementation of the controlled gates can be combined with the measurement, i.e., we do not actually need to implement those gates in certain cases.
+
+## Fermi-Hubbard Model  
 
 ## Keep in mind ...
